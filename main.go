@@ -15,7 +15,7 @@ func main() {
 	}
 
 	for _, f := range files {
-		newName := strings.Replace(f.Name(), "y2mate.com - ", "", 1)
+		newName := strings.Replace(f.Name(), "tayfunguler.org - ", "", 1)
 		src := "files/"+f.Name()
 		fmt.Println(src)
 		dst := "files/"+newName
